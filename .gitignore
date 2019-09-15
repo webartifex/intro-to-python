@@ -1,0 +1,11 @@
+# Environments
+.env/
+env/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
