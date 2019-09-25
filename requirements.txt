@@ -30,6 +30,7 @@ mistune==0.8.4
 nbconvert==5.6.0
 nbformat==4.4.0
 notebook==6.0.1
+numpy==1.17.2
 pandocfilters==1.4.2
 parso==0.5.1
 pexpect==4.7.0
