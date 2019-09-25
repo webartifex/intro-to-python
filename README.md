@@ -1,3 +1,5 @@
+**Important**: The notebooks are being added throughout the fall semester of 2019!
+
 # An Introduction to Python and Programming
 
 The purpose of this repository is to serve as an interactive "book" for a
@@ -13,8 +15,9 @@ science professionals and researchers.
 As such they can be viewed in a plain web browser:
 
 - [00 - Start up](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up.ipynb)
-- [01 - Elements of a Program](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_of_a_program.ipynb)
+- [01 - Elements of a Program](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements.ipynb)
 - [02 - Functions & Modularization](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions.ipynb)
+- [03 - Conditionals & Exceptions](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals.ipynb)
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
