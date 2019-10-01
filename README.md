@@ -18,6 +18,7 @@ As such they can be viewed in a plain web browser:
 - [01 - Elements of a Program](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements.ipynb)
 - [02 - Functions & Modularization](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions.ipynb)
 - [03 - Conditionals & Exceptions](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals.ipynb)
+- [04 - Recursion & Looping](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration.ipynb)
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
