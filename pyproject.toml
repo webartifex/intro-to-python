@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "intro-to-python"
-version = "0.1.0"
+version = "0.4.0"
 description = "An introduction to Python and programming for wanna-be data scientists"
 authors = ["Alexander Hess <alexander@webartifex.biz>"]
 license = "MIT"
