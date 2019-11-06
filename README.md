@@ -126,8 +126,8 @@ are popular tools to automate the described management of virtual environments.
 After activation for the first time, you must install the project's
 **dependencies** (= the third-party packages needed to run the code), most
 notably [Jupyter](https://pypi.org/project/jupyter/) in this project (the
-"python -m" is often left out; if you have poetry installed, you may just
-type `poetry install` instead).
+"python -m" is often left out [but should not be](https://snarky.ca/why-you-should-use-python-m-pip/);
+if you have poetry installed, you may just type `poetry install` instead).
 
 - `python -m pip install -r requirements.txt`
 
