@@ -19,8 +19,9 @@ As such they can be viewed in a plain web browser:
 - [02 - Functions & Modularization](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions.ipynb)
 - [03 - Conditionals & Exceptions](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals.ipynb)
 - [04 - Recursion & Looping](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration.ipynb)
-- [05 - Numbers](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers.ipynb)
-- [06 - Text](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text.ipynb)
+- [05 - Bits & Numbers](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers.ipynb)
+- [06 - Bytes & Text](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text.ipynb)
+- [07 - Sequential Data](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences.ipynb)
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
@@ -125,8 +126,8 @@ are popular tools to automate the described management of virtual environments.
 After activation for the first time, you must install the project's
 **dependencies** (= the third-party packages needed to run the code), most
 notably [Jupyter](https://pypi.org/project/jupyter/) in this project (the
-"python -m" is often left out; if you have poetry installed, you may just
-type `poetry install` instead).
+"python -m" is often left out [but should not be](https://snarky.ca/why-you-should-use-python-m-pip/);
+if you have poetry installed, you may just type `poetry install` instead).
 
 - `python -m pip install -r requirements.txt`
 
