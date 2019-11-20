@@ -22,6 +22,7 @@ As such they can be viewed in a plain web browser:
 - [05 - Bits & Numbers](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers.ipynb)
 - [06 - Bytes & Text](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text.ipynb)
 - [07 - Sequential Data](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences.ipynb)
+- [08 - Mappings & Sets](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings.ipynb)
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
