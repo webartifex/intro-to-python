@@ -22,6 +22,7 @@ As such they can be viewed in a plain web browser:
 - [05 - Bits & Numbers](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers.ipynb)
 - [06 - Bytes & Text](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text.ipynb)
 - [07 - Sequential Data](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences.ipynb)
+- [08 - Mappings & Sets](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings.ipynb)
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
@@ -145,6 +146,7 @@ This opens a new tab in your web browser just as above.
 Alexander Hess is a PhD student at the Chair of Logistics Management at the
 [WHU - Otto Beisheim School of Management](https://www.whu.edu) where he
 conducts research on urban delivery platforms and teaches an introductory
-course on Python (cf., [course listing](https://vlv.whu.edu/campus/all/event.asp?objgguid=0xE57C2715B01B441AAFD3E79AA05CACCF&from=vvz&gguid=0x6A2B0ED5B2B949E69957A2099E7DE2F1&mode=own&tguid=0x3980A9BBC3BF4A638E977F2DC163F44B&lang=en)).
+course on Python (cf., [Fall Term 2019](https://vlv.whu.edu/campus/all/event.asp?objgguid=0xE57C2715B01B441AAFD3E79AA05CACCF&from=vvz&gguid=0x6A2B0ED5B2B949E69957A2099E7DE2F1&mode=own&tguid=0x3980A9BBC3BF4A638E977F2DC163F44B&lang=en),
+[Spring Term 2020](https://vlv.whu.edu/campus/all/event.asp?objgguid=0x3354F4C108FF4E959CDD692A325D9AFE&from=vvz&gguid=0x262E29795DD742CFBDE72B12B69CEFD6&mode=own&lang=en&tguid=0x2E4A7D1FF3C34AD08FF07685461781C9)).
 
 Connect him on [LinkedIn](https://www.linkedin.com/in/webartifex).
