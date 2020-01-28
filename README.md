@@ -1,4 +1,5 @@
-**Important**: The notebooks are being added throughout the fall semester of 2019!
+**Important**: The notebooks are being updated and amended throughout the
+spring semester of 2020!
 
 # An Introduction to Python and Programming
 
@@ -12,23 +13,52 @@ studies** in the "field" of **data science**.
 The "chapters" are written in [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/)
 which are a de-facto standard for exchanging code and results among data
 science professionals and researchers.
-As such they can be viewed in a plain web browser:
+They can be viewed in a plain web browser with the help of
+[nbviewer](https://nbviewer.jupyter.org/):
 
-- [00 - Start up](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up.ipynb)
-- [01 - Elements of a Program](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements.ipynb)
-- [02 - Functions & Modularization](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions.ipynb)
-- [03 - Conditionals & Exceptions](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals.ipynb)
-- [04 - Recursion & Looping](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration.ipynb)
-- [05 - Bits & Numbers](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers.ipynb)
-- [06 - Bytes & Text](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text.ipynb)
-- [07 - Sequential Data](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences.ipynb)
-- [08 - Mappings & Sets](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings.ipynb)
+- *Introduction*: Start up
+  ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_00_content.ipynb)
+  | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_10_review.ipynb)
+  | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_20_exercises.ipynb))
+- **Part A: Expressing Logic**
+  - *Chapter 1*: Elements of a Program
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_20_exercises.ipynb))
+  - *Chapter 2*: Functions & Modularization
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_20_exercises.ipynb))
+  - *Chapter 3*: Conditionals & Exceptions
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_20_exercises.ipynb))
+  - *Chapter 4*: Recursion & Looping
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_20_exercises.ipynb))
+- **Part B: Managing Data and Memory**
+  - *Chapter 5*: Bits & Numbers
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_20_exercises.ipynb))
+  - *Chapter 6*: Bytes & Text
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_10_review.ipynb))
+  - *Chapter 7*: Sequential Data
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_20_exercises.ipynb))
+  - *Chapter 8*: Mappings & Sets
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_20_exercises.ipynb))
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
 This way, the student can play with the code and learn more efficiently.
 Precise **installation instructions** are either in the [00th notebook](
-https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up.ipynb)
+https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_00_content.ipynb)
 or further below.
 
 Feedback is encouraged and will be incorporated.
@@ -50,7 +80,7 @@ It is only expected that the student has:
 
 ## Installation
 
-To follow this course, a working installation of **Python 3.6** or higher is
+To follow this course, a working installation of **Python 3.7** or higher is
 expected.
 
 A popular and beginner friendly way is to install the [Anaconda Distribution](
@@ -58,36 +88,55 @@ https://www.anaconda.com/distribution/) that not only ships Python but comes
 pre-packaged with a lot of third-party libraries from the so-called
 "scientific stack".
 Just go to the [download](https://www.anaconda.com/distribution/#download-section)
-section and install the latest version (i.e., *2019-07* with Python 3.7 at the
+section and install the latest version (i.e., *2019-10* with Python 3.7 at the
 time of this writing) for your operating system.
 
-Then, among others, you will find an entry "Jupyter Notebook" in your start
+Then, among others, you will find an entry "Anaconda Navigator" in your start
 menu like below.
-Click on it and a new tab in your web browser will open where you can switch
-between folders as you could in your computer's default file browser.
+Click on it.
 
-<img src="static/anaconda.png" width="50%">
+<img src="static/anaconda_start_menu.png" width="30%">
 
-To download the course's materials as a ZIP file, click on the green "Clone or
-download" button on the top right on this website.
-Then, unpack the ZIP file into a folder of your choosing (ideally somewhere
-within your personal user folder so that the files show up right away).
+A window opens showing you several applications that come with the Anaconda
+Distribution.
+Now, click on "JupyterLab."
+
+<img src="static/anaconda_navigator.png" width="50%">
+
+A new tab in your web browser opens with the website being "localhost" and some
+number (e.g., 8888).
+This is the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/)
+application that is used to display and run the Jupyter notebooks mentioned
+above.
+On the left, you see the files and folders in your local user folder.
+This file browser works like any other.
+In the center, you have several options to launch a new notebook file.
+
+<img src="static/jupyter_lab.png" width="50%">
+
+Next, to download the course's materials as a ZIP file, click on the green
+"Clone or download" button on the top right on this website.
+Then, unpack the ZIP file into a folder of your choosing, ideally somewhere
+within your personal user folder so that the files show up right away in
+JupyterLab.
 
 
-### Alternative Installation
+### Alternative Installation (for Instructors)
 
 Python can also be installed in a "pure" way as obtained from its core
 development team (i.e., without any third-party packages installed).
-However, this is somewhat too "advanced" for a beginner as it involves working
-with a terminal emulator, which looks similar to the picture below and is
-used without a mouse by typing commands into it.
+However, this may be too "advanced" for a beginner as it involves working
+with a [terminal emulator](https://en.wikipedia.org/wiki/Terminal_emulator),
+which looks like the one in the picture below and is used *without* a mouse by
+typing commands into it.
 
 <img src="static/terminal.png" width="50%" align="center">
 
-Assuming that you already have a working version of Python 3.6 or higher
+Assuming that you already have a working version of Python 3.7 or higher
 installed (cf., the official [download page](https://www.python.org/downloads/)),
 the following summarizes the commands to be typed into a terminal emulator to
-get the course materials up and running on a local machine without Anaconda.
+get the course materials up and running on a local machine without the
+Anaconda Distribution.
 You are then responsible for understanding the concepts behind them.
 
 First, the [git](https://git-scm.com/) command line tool is a more professional
@@ -126,17 +175,23 @@ are popular tools to automate the described management of virtual environments.
 
 After activation for the first time, you must install the project's
 **dependencies** (= the third-party packages needed to run the code), most
-notably [Jupyter](https://pypi.org/project/jupyter/) in this project (the
-"python -m" is often left out [but should not be](https://snarky.ca/why-you-should-use-python-m-pip/);
+notably [JupyterLab](https://pypi.org/project/jupyterlab/) in this project
+(the "python -m" is often left out [but should not be](https://snarky.ca/why-you-should-use-python-m-pip/);
 if you have poetry installed, you may just type `poetry install` instead).
 
 - `python -m pip install -r requirements.txt`
 
+The *requirements.txt* file also installs the [black](https://github.com/psf/black)
+tool (incl. the [blackcellmagic](https://github.com/csurfer/blackcellmagic)
+extension) and the [RISE](https://github.com/damianavila/RISE) extension.
+With them, the instructor can easily re-format code in a class session and
+execute code in presentation mode (currently RISE only works with the
+older `jupyter notebook` command).
 
 With everything installed, you can now do the equivalent of clicking the
-"Jupyter Notebook" entry in your start menu.
+"JupyterLab" entry in the Anaconda Navigator.
 
-- `jupyter notebook`
+- `jupyter lab`
 
 This opens a new tab in your web browser just as above.
 
