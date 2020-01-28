@@ -1,20 +1,19 @@
 [tool.poetry]
 name = "intro-to-python"
-version = "0.6.0"
+version = "0.6.1"
 description = "An introduction to Python and programming for wanna-be data scientists"
 authors = ["Alexander Hess <alexander@webartifex.biz>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-jupyter = "^1.0"
-numpy = "^1.17"
+python = "^3.7"
+jupyterlab = "^1.2.6"
+numpy = "^1.18.1"
 
 [tool.poetry.dev-dependencies]
-black = {version = "^18.3-alpha.0", allows-prereleases = true}
+black = "^19.10b0"
 blackcellmagic = "^0.0.2"
-jupyter-contrib-nbextensions = "^0.5"
-rise = "^5.5"
+RISE = "^5.6.0"
 
 [build-system]
 requires = ["poetry>=0.12"]
