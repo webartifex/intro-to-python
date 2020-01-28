@@ -1,4 +1,5 @@
-**Important**: The notebooks are being added throughout the fall semester of 2019!
+**Important**: The notebooks are being updated and amended throughout the
+spring semester of 2020!
 
 # An Introduction to Python and Programming
 
@@ -50,7 +51,7 @@ It is only expected that the student has:
 
 ## Installation
 
-To follow this course, a working installation of **Python 3.6** or higher is
+To follow this course, a working installation of **Python 3.7** or higher is
 expected.
 
 A popular and beginner friendly way is to install the [Anaconda Distribution](
@@ -58,7 +59,7 @@ https://www.anaconda.com/distribution/) that not only ships Python but comes
 pre-packaged with a lot of third-party libraries from the so-called
 "scientific stack".
 Just go to the [download](https://www.anaconda.com/distribution/#download-section)
-section and install the latest version (i.e., *2019-07* with Python 3.7 at the
+section and install the latest version (i.e., *2019-10* with Python 3.7 at the
 time of this writing) for your operating system.
 
 Then, among others, you will find an entry "Jupyter Notebook" in your start
@@ -84,7 +85,7 @@ used without a mouse by typing commands into it.
 
 <img src="static/terminal.png" width="50%" align="center">
 
-Assuming that you already have a working version of Python 3.6 or higher
+Assuming that you already have a working version of Python 3.7 or higher
 installed (cf., the official [download page](https://www.python.org/downloads/)),
 the following summarizes the commands to be typed into a terminal emulator to
 get the course materials up and running on a local machine without Anaconda.
