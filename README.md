@@ -13,23 +13,52 @@ studies** in the "field" of **data science**.
 The "chapters" are written in [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/)
 which are a de-facto standard for exchanging code and results among data
 science professionals and researchers.
-As such they can be viewed in a plain web browser:
+They can be viewed in a plain web browser with the help of
+[nbviewer](https://nbviewer.jupyter.org/):
 
-- [00 - Start up](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up.ipynb)
-- [01 - Elements of a Program](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements.ipynb)
-- [02 - Functions & Modularization](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions.ipynb)
-- [03 - Conditionals & Exceptions](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals.ipynb)
-- [04 - Recursion & Looping](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration.ipynb)
-- [05 - Bits & Numbers](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers.ipynb)
-- [06 - Bytes & Text](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text.ipynb)
-- [07 - Sequential Data](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences.ipynb)
-- [08 - Mappings & Sets](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings.ipynb)
+- *Introduction*: Start up
+  ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_00_content.ipynb)
+  | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_10_review.ipynb)
+  | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_20_exercises.ipynb))
+- **Part A: Expressing Logic**
+  - *Chapter 1*: Elements of a Program
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_20_exercises.ipynb))
+  - *Chapter 2*: Functions & Modularization
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_20_exercises.ipynb))
+  - *Chapter 3*: Conditionals & Exceptions
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_20_exercises.ipynb))
+  - *Chapter 4*: Recursion & Looping
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_20_exercises.ipynb))
+- **Part B: Managing Data and Memory**
+  - *Chapter 5*: Bits & Numbers
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_20_exercises.ipynb))
+  - *Chapter 6*: Bytes & Text
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_10_review.ipynb))
+  - *Chapter 7*: Sequential Data
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_20_exercises.ipynb))
+  - *Chapter 8*: Mappings & Sets
+    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_00_content.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_10_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_20_exercises.ipynb))
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
 This way, the student can play with the code and learn more efficiently.
 Precise **installation instructions** are either in the [00th notebook](
-https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up.ipynb)
+https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_00_content.ipynb)
 or further below.
 
 Feedback is encouraged and will be incorporated.
