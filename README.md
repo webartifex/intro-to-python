@@ -1,4 +1,4 @@
-**Important**: The notebooks are being updated and amended throughout the
+**Important**: The content is being updated and amended throughout the
 spring semester of 2020!
 
 # An Introduction to Python and Programming
@@ -17,48 +17,48 @@ They can be viewed in a plain web browser with the help of
 [nbviewer](https://nbviewer.jupyter.org/):
 
 - *Introduction*: Start up
-  ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_00_content.ipynb)
-  | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_10_review.ipynb)
-  | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_20_exercises.ipynb))
+  ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_00_lecture.ipynb)
+  | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_01_review.ipynb)
+  | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_02_exercises.ipynb))
 - **Part A: Expressing Logic**
   - *Chapter 1*: Elements of a Program
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_10_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_20_exercises.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_02_exercises.ipynb))
   - *Chapter 2*: Functions & Modularization
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_10_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_20_exercises.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_02_exercises.ipynb))
   - *Chapter 3*: Conditionals & Exceptions
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_10_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_20_exercises.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_02_exercises.ipynb))
   - *Chapter 4*: Recursion & Looping
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_10_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_20_exercises.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_02_exercises.ipynb))
 - **Part B: Managing Data and Memory**
   - *Chapter 5*: Bits & Numbers
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_10_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_20_exercises.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_02_exercises.ipynb))
   - *Chapter 6*: Bytes & Text
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_10_review.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_01_review.ipynb))
   - *Chapter 7*: Sequential Data
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_10_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_20_exercises.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_02_exercises.ipynb))
   - *Chapter 8*: Mappings & Sets
-    ([content](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_00_content.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_10_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_20_exercises.ipynb))
+    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_02_exercises.ipynb))
 
 However, it is recommended that students **install Python and Jupyter
 locally** and run the code in the notebooks on their own.
 This way, the student can play with the code and learn more efficiently.
 Precise **installation instructions** are either in the [00th notebook](
-https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_start_up_00_content.ipynb)
+https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_00_lecture.ipynb)
 or further below.
 
 Feedback is encouraged and will be incorporated.
@@ -110,7 +110,7 @@ application that is used to display and run the Jupyter notebooks mentioned
 above.
 On the left, you see the files and folders in your local user folder.
 This file browser works like any other.
-In the center, you have several options to launch a new notebook file.
+In the center, you have several options to launch (i.e., "create") new files.
 
 <img src="static/jupyter_lab.png" width="50%">
 
@@ -181,19 +181,39 @@ if you have poetry installed, you may just type `poetry install` instead).
 
 - `python -m pip install -r requirements.txt`
 
-The *requirements.txt* file also installs the [black](https://github.com/psf/black)
-tool (incl. the [blackcellmagic](https://github.com/csurfer/blackcellmagic)
-extension) and the [RISE](https://github.com/damianavila/RISE) extension.
-With them, the instructor can easily re-format code in a class session and
-execute code in presentation mode (currently RISE only works with the
-older `jupyter notebook` command).
-
 With everything installed, you can now do the equivalent of clicking the
 "JupyterLab" entry in the Anaconda Navigator.
 
 - `jupyter lab`
 
 This opens a new tab in your web browser just as above.
+
+
+#### Interactive Presentation Mode & Live Coding
+
+The *requirements.txt* file also installs the [nbextensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
+for Jupyter notebooks, the [black](https://github.com/psf/black) code
+formatting tool (incl. the [blackcellmagic](https://github.com/csurfer/blackcellmagic)
+Jupyter extension) and the [RISE](https://github.com/damianavila/RISE) Jupyter
+extension.
+With them, the instructor can easily re-format code in a class session and
+execute code in presentation mode.
+
+**Note**: Currently, the RISE extension *only* works with the older
+notebook command.
+
+- `jupyter notebook` (so, `jupyter lab` may *not* be used).
+
+After installing the dependencies, the instructor must copy the extensions'
+JavaScript and CSS files into Jupyter's search directory.
+
+- `jupyter contrib nbextension install --user`
+
+Now, the instructor can enable/disable the various Jupyter notebook
+extensions.
+
+**Note**: The extension "Collapsible Headings" may interfere with the
+RISE presentation if hotkeys are enabled.
 
 
 ## About the Author
