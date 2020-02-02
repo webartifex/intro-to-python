@@ -181,19 +181,39 @@ if you have poetry installed, you may just type `poetry install` instead).
 
 - `python -m pip install -r requirements.txt`
 
-The *requirements.txt* file also installs the [black](https://github.com/psf/black)
-tool (incl. the [blackcellmagic](https://github.com/csurfer/blackcellmagic)
-extension) and the [RISE](https://github.com/damianavila/RISE) extension.
-With them, the instructor can easily re-format code in a class session and
-execute code in presentation mode (currently RISE only works with the
-older `jupyter notebook` command).
-
 With everything installed, you can now do the equivalent of clicking the
 "JupyterLab" entry in the Anaconda Navigator.
 
 - `jupyter lab`
 
 This opens a new tab in your web browser just as above.
+
+
+#### Interactive Presentation Mode & Live Coding
+
+The *requirements.txt* file also installs the [nbextensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)
+for Jupyter notebooks, the [black](https://github.com/psf/black) code
+formatting tool (incl. the [blackcellmagic](https://github.com/csurfer/blackcellmagic)
+Jupyter extension) and the [RISE](https://github.com/damianavila/RISE) Jupyter
+extension.
+With them, the instructor can easily re-format code in a class session and
+execute code in presentation mode.
+
+**Note**: Currently, the RISE extension *only* works with the older
+notebook command.
+
+- `jupyter notebook` (so, `jupyter lab` may *not* be used).
+
+After installing the dependencies, the instructor must copy the extensions'
+JavaScript and CSS files into Jupyter's search directory.
+
+- `jupyter contrib nbextension install --user`
+
+Now, the instructor can enable/disable the various Jupyter notebook
+extensions.
+
+**Note**: The extension "Collapsible Headings" may interfere with the
+RISE presentation if hotkeys are enabled.
 
 
 ## About the Author
