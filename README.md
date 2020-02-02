@@ -110,7 +110,7 @@ application that is used to display and run the Jupyter notebooks mentioned
 above.
 On the left, you see the files and folders in your local user folder.
 This file browser works like any other.
-In the center, you have several options to launch a new notebook file.
+In the center, you have several options to launch (i.e., "create") new files.
 
 <img src="static/jupyter_lab.png" width="50%">
 
