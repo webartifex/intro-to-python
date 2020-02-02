@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "intro-to-python"
-version = "0.6.1"
+version = "0.6.2"
 description = "An introduction to Python and programming for wanna-be data scientists"
 authors = ["Alexander Hess <alexander@webartifex.biz>"]
 license = "MIT"
@@ -9,10 +9,12 @@ license = "MIT"
 python = "^3.7"
 jupyterlab = "^1.2.6"
 numpy = "^1.18.1"
+pandas = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 black = "^19.10b0"
 blackcellmagic = "^0.0.2"
+jupyter_contrib_nbextensions = "^0.5.1"
 RISE = "^5.6.0"
 
 [build-system]
