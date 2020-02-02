@@ -1,4 +1,4 @@
-**Important**: The notebooks are being updated and amended throughout the
+**Important**: The content is being updated and amended throughout the
 spring semester of 2020!
 
 # An Introduction to Python and Programming
