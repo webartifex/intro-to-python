@@ -15,16 +15,17 @@ be used outside the module with a single underscore "_". This way, we can
 design the code within a module in a modular fashion and only "export" what we
 want.
 
-Here, all three functions internally forward the computation to an internal
-utility function _scaled_average() that contains all the logic common to the
-three functions. Also, we define one _default_scalar variable that is used as
-the default for the scalar parameter in each of the functions.
+Here, all three functions internally forward parts of their computations
+to the utility functions _round_all() and _scaled_average() that contain all
+the logic common to the three functions.
 
 While this example is stylized, it shows how Python modules are often
 designed.
 """
 
-_default_scalar = 1
+def _round_all(numbers):
+    """Internal utility function to round all numbers in a list."""
+    return [round(n) for n in numbers]
 
 
 def _scaled_average(numbers, scalar):
@@ -33,43 +34,43 @@ def _scaled_average(numbers, scalar):
     return scalar * average
 
 
-def average(numbers, *, scalar=_default_scalar):
+def average(numbers, *, scalar=1):
     """Calculate the average of all numbers in a list.
 
     Args:
-        numbers (list): list of numbers; may be integers or floats
-        scalar (float, optional): the scalar that multiplies the
-            average of the even numbers
+        numbers (list of int's/float's): numbers to be averaged;
+            if non-whole numbers are provided, they are rounded
+        scalar (float, optional): multiplies the average; defaults to 1
 
     Returns:
         float: (scaled) average
     """
-    return _scaled_average(numbers, scalar)
+    return _scaled_average(_round_all(numbers), scalar)
 
 
-def average_evens(numbers, *, scalar=_default_scalar):
+def average_evens(numbers, *, scalar=1):
     """Calculate the average of all even numbers in a list.
 
     Args:
-        numbers (list): list of numbers; may be integers or floats
-        scalar (float, optional): the scalar that multiplies the
-            average of the even numbers
+        numbers (list of int's/float's): numbers to be averaged;
+            if non-whole numbers are provided, they are rounded
+        scalar (float, optional): multiplies the average; defaults to 1
 
     Returns:
         float: (scaled) average
     """
-    return _scaled_average([n for n in numbers if n % 2 == 0], scalar)
+    return _scaled_average([n for n in _round_all(numbers) if n % 2 == 0], scalar)
 
 
-def average_odds(numbers, *, scalar=_default_scalar):
+def average_odds(numbers, *, scalar=1):
     """Calculate the average of all odd numbers in a list.
 
     Args:
-        numbers (list): list of numbers; may be integers or floats
-        scalar (float, optional): the scalar that multiplies the
-            average of the even numbers
+        numbers (list of int's/float's): numbers to be averaged;
+            if non-whole numbers are provided, they are rounded
+        scalar (float, optional): multiplies the average; defaults to 1
 
     Returns:
         float: (scaled) average
     """
-    return _scaled_average([n for n in numbers if n % 2 != 0], scalar)
+    return _scaled_average([n for n in _round_all(numbers) if n % 2 != 0], scalar)
