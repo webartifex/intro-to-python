@@ -120,6 +120,13 @@ Then, unpack the ZIP file into a folder of your choosing, ideally somewhere
 within your personal user folder so that the files show up right away in
 JupyterLab.
 
+### Try it online
+
+You can try and follow this course also in [Deepnote](https://deepnote.com),
+which allows you to execute the code from your browser without installing anything.
+For example, here's a link to the first chapter: 
+[<img height="22"  src="https://beta.deepnote.com/buttons/launch-in-deepnote.svg">](https://beta.deepnote.com/launch?template=deepnote&url=https%3A//github.com/webartifex/intro-to-python/blob/master/00_intro_00_lecture.ipynb)
+
 
 ### Alternative Installation (for Instructors)
 
