@@ -44,7 +44,8 @@ They can be viewed in a plain web browser with the help of
     | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_02_exercises.ipynb))
   - *Chapter 6*: Bytes & Text
     ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_00_lecture.ipynb)
-    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_01_review.ipynb))
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_02_exercises.ipynb)))
   - *Chapter 7*: Sequential Data
     ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_01_review.ipynb)
