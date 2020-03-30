@@ -1,6 +1,3 @@
-**Important**: The content is being updated and amended throughout the
-spring semester of 2020!
-
 # An Introduction to Python and Programming
 
 The purpose of this repository is to serve as an interactive "book" for a
@@ -17,41 +14,56 @@ They can be viewed in a plain web browser with the help of
 [nbviewer](https://nbviewer.jupyter.org/):
 
 - *Introduction*: Start up
-  ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_00_lecture.ipynb)
+  ([video](https://www.youtube.com/watch?v=YTU8jaG27Xk)
+  | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_00_lecture.ipynb)
   | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_01_review.ipynb)
   | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_02_exercises.ipynb))
 - **Part A: Expressing Logic**
   - *Chapter 1*: Elements of a Program
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_00_lecture.ipynb)
+    ([video](https://www.youtube.com/watch?v=v0lk1Qfaw8Y)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_01_review.ipynb)
     | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/01_elements_02_exercises.ipynb))
   - *Chapter 2*: Functions & Modularization
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_00_lecture.ipynb)
+    ([video](https://www.youtube.com/watch?v=j4Xn8QFysmc)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_01_review.ipynb)
     | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/02_functions_02_exercises.ipynb))
   - *Chapter 3*: Conditionals & Exceptions
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_00_lecture.ipynb)
+    ([video](https://www.youtube.com/watch?v=aDbblINzuGQ)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_01_review.ipynb)
     | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/03_conditionals_02_exercises.ipynb))
   - *Chapter 4*: Recursion & Looping
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_00_lecture.ipynb)
+    ([video](https://www.youtube.com/watch?v=jT6hr4vOJks)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_01_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_02_exercises.ipynb))
+    | [exercises 1](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_02_exercises.ipynb)
+    | [exercises 2](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/04_iteration_03_exercises.ipynb))
 - **Part B: Managing Data and Memory**
-  - *Chapter 5*: Bits & Numbers
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_00_lecture.ipynb)
+  - *Chapter 5*: Numbers & Bits
+    ([video](https://www.youtube.com/watch?v=nB00WGCnVjg)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_01_review.ipynb)
     | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/05_numbers_02_exercises.ipynb))
-  - *Chapter 6*: Bytes & Text
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_00_lecture.ipynb)
+  - *Chapter 6*: Text & Bytes
+    ([video](https://www.youtube.com/watch?v=3WTRlgN09sM)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_01_review.ipynb)
-    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_02_exercises.ipynb)))
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/06_text_02_exercises.ipynb))
   - *Chapter 7*: Sequential Data
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_00_lecture.ipynb)
+    ([video](https://www.youtube.com/watch?v=nx2sCDoeC3I)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_01_review.ipynb)
     | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/07_sequences_02_exercises.ipynb))
-  - *Chapter 8*: Mappings & Sets
-    ([lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_00_lecture.ipynb)
+  - *Chapter 8*: Map, Filter, & Reduce
+    ([video](https://www.youtube.com/watch?v=ePzzq2YBWjY)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mfr_00_lecture.ipynb)
+    | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mfr_01_review.ipynb)
+    | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mfr_02_exercises.ipynb))
+  - *Chapter 9*: Mappings & Sets
+    ([video](https://www.youtube.com/watch?v=vbp0svA35TE)
+    | [lecture](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_00_lecture.ipynb)
     | [review](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_01_review.ipynb)
     | [exercises](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/08_mappings_02_exercises.ipynb))
 
@@ -62,10 +74,15 @@ Precise **installation instructions** are either in the [00th notebook](
 https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/master/00_intro_00_lecture.ipynb)
 or further below.
 
+A playlist with all video presentations of the individiual chapters can be found [here](https://www.youtube.com/playlist?list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f).
+
 Feedback is encouraged and will be incorporated.
 Open an issue in the [issues tracker](https://github.com/webartifex/intro-to-python/issues)
 or initiate a [pull request](https://help.github.com/en/articles/about-pull-requests)
 if you are familiar with the concept.
+
+A "Show HN" post about this introduction was made on [Hacker News](https://news.ycombinator.com/item?id=22669084)
+and some ideas for improvement were discussed there.
 
 
 ## Prerequisites

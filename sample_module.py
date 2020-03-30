@@ -43,7 +43,7 @@ def average(numbers, *, scalar=1):
         scalar (float, optional): multiplies the average; defaults to 1
 
     Returns:
-        float: (scaled) average
+        scaled_average (float)
     """
     return _scaled_average(_round_all(numbers), scalar)
 
@@ -57,7 +57,7 @@ def average_evens(numbers, *, scalar=1):
         scalar (float, optional): multiplies the average; defaults to 1
 
     Returns:
-        float: (scaled) average
+        scaled_average (float)
     """
     return _scaled_average([n for n in _round_all(numbers) if n % 2 == 0], scalar)
 
@@ -71,6 +71,6 @@ def average_odds(numbers, *, scalar=1):
         scalar (float, optional): multiplies the average; defaults to 1
 
     Returns:
-        float: (scaled) average
+        scaled_average (float)
     """
     return _scaled_average([n for n in _round_all(numbers) if n % 2 != 0], scalar)
