@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "intro-to-python"
+version = "0.1.0.dev0"
+
+authors = ["Alexander Hess <alexander@webartifex.biz>"]
+description = "An intro to Python & programming for wanna-be data scientists"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
