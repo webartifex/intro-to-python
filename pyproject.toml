@@ -16,3 +16,5 @@ python = "^3.8"
 jupyterlab = "^2.2.8"
 
 [tool.poetry.dev-dependencies]
+# Task runners
+nox = "^2020.8.22"
