@@ -2,6 +2,8 @@
 
 Nox provides the following tasks:
 
+- "init-project": install the pre-commit hooks
+
 - "fix-branch-references": adjusts links with git branch references in
   various files (e.g., Mardown or notebooks)
 
@@ -26,6 +28,16 @@ nox.options.envdir = ".cache/nox"
 # All tools except git and poetry are project dependencies.
 # Avoid accidental successes if the environment is not set up properly.
 nox.options.error_on_external_run = True
+
+
+@nox.session(name="init-project", venv_backend="none")
+def init_project(session):
+    """Install the pre-commit hooks."""
+    for type_ in (
+        "pre-commit",
+        "pre-merge-commit",
+    ):
+        session.run("poetry", "run", "pre-commit", "install", f"--hook-type={type_}")
 
 
 @nox.session(name="fix-branch-references", venv_backend="none")
