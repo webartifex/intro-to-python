@@ -19,6 +19,9 @@ They can be viewed in a web browser
    [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/00_content.ipynb)
    [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/00_content.ipynb)
    [<img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/watch?v=YTU8jaG27Xk&list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f)
+   |
+   [review <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/01_review.ipynb)
+   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/01_review.ipynb)
   )
 
 
