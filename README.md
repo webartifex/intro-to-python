@@ -226,6 +226,30 @@ The command-line interface stays open in the background,
 <img src="static/cli_jupyter_lab.png" width="50%" align="center">
 
 
+#### Interactive Presentation Mode & Live Coding
+
+`poetry install` also installs the
+    [RISE <img height="12" style="display: inline-block" src="static/link/to_gh.png">](https://github.com/damianavila/RISE)
+    extension for Jupyter.
+With that, the instructor can execute code in *presentation* mode during a class session.
+However, the RISE extension does *not* work in the more recent
+    [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) app
+    but only in the older [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) app,
+    which comes with less features and a simpler [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface).
+The instructor can start the latter with:
+
+- `poetry run jupyter notebook`
+
+This also opens a new tab in the web browser.
+After opening a notebook,
+    clicking on the button highlighted below
+    starts the presentation mode.
+
+<img src="static/presentation_mode.png" width="50%" align="center">
+
+Not all notebooks are designed for this presentation mode.
+
+
 ## Contributing
 
 Feedback **is highly encouraged** and will be incorporated.
