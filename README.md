@@ -3,8 +3,25 @@
 This project is a *thorough* introductory course
     in programming with **[Python <img height="12" style="display: inline-block" src="static/link/to_py.png">](https://www.python.org/)**.
 
+
+### Objective
+
 The **main goal** is to **prepare** students
-for **further studies** in the "field" of **data science**.
+    for **further studies** in the "field" of **data science**,
+    including but not limited to topics such as:
+- algorithms & data structures
+- data cleaning & wrangling
+- data visualization
+- data engineering (incl. SQL databases)
+- data mining (incl. web scraping)
+- linear algebra
+- machine learning (incl. feature generation & deep learning)
+- optimization & (meta-)heuristics (incl. management science & operations research)
+- statistics & econometrics
+- quantitative finance (e.g., option valuation)
+- quantitative marketing (e.g., customer segmentation)
+- quantitative supply chain management (e.g., forecasting)
+- web development (incl. APIs)
 
 
 ### Prerequisites
