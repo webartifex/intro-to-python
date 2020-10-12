@@ -39,6 +39,11 @@ def init_project(session):
     ):
         session.run("poetry", "run", "pre-commit", "install", f"--hook-type={type_}")
 
+    # Copy the extensions' JavaScript and CSS files into Jupyter's search directory.
+    session.run(
+        "poetry", "run", "jupyter", "contrib", "nbextension", "install", "--user"
+    )
+
 
 @nox.session(name="fix-branch-references", venv_backend="none")
 def fix_branch_references(_session):

@@ -1,10 +1,51 @@
 # An Introduction to Python and Programming
 
-This project is a thorough introductory course
-in programming with **[Python <img height="12" style="display: inline-block" src="static/link/to_py.png">](https://www.python.org/)**.
+This project is a *thorough* introductory course
+    in programming with **[Python <img height="12" style="display: inline-block" src="static/link/to_py.png">](https://www.python.org/)**.
+
+
+### Table of Contents
+
+The materials are designed to resemble a book.
+They can be viewed in a web browser
+    either statically (i.e., read-only) on [nbviewer <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/tree/develop/)
+    or interactively (i.e., code can be executed) on [Binder <img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab).
+**Video** presentations on the content are available
+    either via the individual links to [YouTube <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com) below
+    or this [playlist <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/playlist?list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f).
+
+- *Chapter 0*: Introduction
+  (
+   [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/00_content.ipynb)
+   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/00_content.ipynb)
+   [<img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/watch?v=YTU8jaG27Xk&list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f)
+   |
+   [review <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/01_review.ipynb)
+   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/01_review.ipynb)
+   |
+   [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/02_exercises.ipynb)
+   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/02_exercises.ipynb)
+  )
+
+
+### Objective
 
 The **main goal** is to **prepare** students
-for **further studies** in the "field" of **data science**.
+    for **further studies** in the "field" of **data science**,
+    including but not limited to topics such as:
+- algorithms & data structures
+- data cleaning & wrangling
+- data visualization
+- data engineering (incl. SQL databases)
+- data mining (incl. web scraping)
+- linear algebra
+- machine learning (incl. feature generation & deep learning)
+- optimization & (meta-)heuristics (incl. management science & operations research)
+- statistics & econometrics
+- quantitative finance (e.g., option valuation)
+- quantitative marketing (e.g., customer segmentation)
+- quantitative supply chain management (e.g., forecasting)
+- web development (incl. APIs)
 
 
 ### Prerequisites
@@ -164,7 +205,16 @@ The following *one* command not only
 [poetry](https://python-poetry.org/docs/) is also used
     to execute commands in the project's (virtual) environment.
 The command is then prefixed with `poetry run ...`.
-For example, to do the equivalent of clicking "Launch" in the Anaconda Navigator:
+
+The project uses [nox](https://nox.thea.codes/en/stable/)
+    to manage various maintenance tasks.
+After cloning the repository and setting up the virual environment,
+    it is recommended to run the initialization task.
+That needs to be done only once.
+
+- `poetry run nox -s init-project`
+
+To do the equivalent of clicking "Launch" in the Anaconda Navigator:
 
 - `poetry run jupyter lab`
 
@@ -174,6 +224,45 @@ The command-line interface stays open in the background,
     and prints log messages as we work in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
 
 <img src="static/cli_jupyter_lab.png" width="50%" align="center">
+
+
+#### Interactive Presentation Mode & Live Coding
+
+`poetry install` also installs the
+    [RISE <img height="12" style="display: inline-block" src="static/link/to_gh.png">](https://github.com/damianavila/RISE)
+    extension for Jupyter.
+With that, the instructor can execute code in *presentation* mode during a class session.
+However, the RISE extension does *not* work in the more recent
+    [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) app
+    but only in the older [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) app,
+    which comes with less features and a simpler [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface).
+The instructor can start the latter with:
+
+- `poetry run jupyter notebook`
+
+This also opens a new tab in the web browser.
+After opening a notebook,
+    clicking on the button highlighted below
+    starts the presentation mode.
+
+<img src="static/presentation_mode.png" width="50%" align="center">
+
+Not all notebooks are designed for this presentation mode.
+
+
+## Contributing
+
+Feedback **is highly encouraged** and will be incorporated.
+Open an issue in the [issues tracker <img height="12" style="display: inline-block" src="static/link/to_gh.png">](https://github.com/webartifex/intro-to-python/issues)
+    or initiate a [pull request <img height="12" style="display: inline-block" src="static/link/to_gh.png">](https://help.github.com/en/articles/about-pull-requests)
+    if you are familiar with the concept.
+Simple issues that *anyone* can **help fix** are, for example,
+    **spelling mistakes** or **broken links**.
+If you feel that some topic is missing entirely, you may also mention that.
+The materials here are considered a **permanent work-in-progress**.
+
+A "Show HN" post about this course was made on [Hacker News <img height="12" style="display: inline-block" src="static/link/to_hn.png">](https://news.ycombinator.com/item?id=22669084)
+    and some ideas for improvement were discussed there.
 
 
 ## About the Author
