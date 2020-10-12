@@ -205,7 +205,16 @@ The following *one* command not only
 [poetry](https://python-poetry.org/docs/) is also used
     to execute commands in the project's (virtual) environment.
 The command is then prefixed with `poetry run ...`.
-For example, to do the equivalent of clicking "Launch" in the Anaconda Navigator:
+
+The project uses [nox](https://nox.thea.codes/en/stable/)
+    to manage various maintenance tasks.
+After cloning the repository and setting up the virual environment,
+    it is recommended to run the initialization task.
+That needs to be done only once.
+
+- `poetry run nox -s init-project`
+
+To do the equivalent of clicking "Launch" in the Anaconda Navigator:
 
 - `poetry run jupyter lab`
 
