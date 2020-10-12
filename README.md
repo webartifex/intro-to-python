@@ -174,3 +174,12 @@ The command-line interface stays open in the background,
     and prints log messages as we work in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
 
 <img src="static/cli_jupyter_lab.png" width="50%" align="center">
+
+
+## About the Author
+
+Alexander Hess is a PhD student
+    at the Chair of Logistics Management at [WHU - Otto Beisheim School of Management](https://www.whu.edu)
+    where he conducts research on urban delivery platforms
+    and teaches coding courses based on Python in the BSc and MBA programs.
+Connect him on [LinkedIn](https://www.linkedin.com/in/webartifex).
