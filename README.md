@@ -5,3 +5,181 @@ in programming with **[Python <img height="12" style="display: inline-block" src
 
 The **main goal** is to **prepare** students
 for **further studies** in the "field" of **data science**.
+
+
+### Prerequisites
+
+To be suitable for *beginners*, there are *no* formal prerequisites.
+It is only expected that the student has:
+- a *solid* understanding of the **English** language,
+- knowledge of **basic mathematics** from high school,
+- the ability to **think conceptually** and **reason logically**, and
+- the willingness to **invest** around **90-120 hours** on this course.
+
+
+## Getting started
+
+If you are a total beginner,
+    follow the instructions in the "Installation" section next.
+If you are familiar with
+    the [git](https://git-scm.com/)
+    and [poetry](https://python-poetry.org/docs/) command-line tools,
+    you may want to look at the "Alternative Installation" section further below.
+
+
+### Installation
+
+To follow this course, an installation of **Python 3.8** or higher is expected.
+
+A popular and beginner friendly way is
+    to install the [Anaconda Distribution](https://www.anaconda.com/products/individual)
+    that not only ships Python itself
+    but also comes pre-packaged with a lot of third-party libraries.
+
+<img src="static/anaconda_download.png" width="50%">
+
+Scroll down to the [download](https://www.anaconda.com/products/individual#Downloads) section
+    and install the latest version for your operating system
+    (i.e., *2020-07* with Python 3.8 at the time of this writing).
+
+After installation,
+    you find an entry "[Anaconda Navigator](https://docs.anaconda.com/anaconda/navigator/)"
+    in your start menu.
+Click on it.
+
+<img src="static/anaconda_start_menu.png" width="50%">
+
+A window opens giving you several options to start various applications.
+In the beginning, we will work mostly with [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
+Click on "Launch".
+
+<img src="static/anaconda_navigator.png" width="50%">
+
+A new tab in your web browser opens:
+The website is "localhost" and some number (e.g., 8888).
+
+This is the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) application
+    that is used to display the course materials.
+On the left, you see the files and folders on your computer.
+This file browser works like any other.
+In the center, you see several options to launch (i.e., "create") new files.
+
+<img src="static/jupyter_lab.png" width="50%">
+
+To check if your Python installation works,
+    double-click on the "Python 3" tile under the "Notebook" section.
+That opens a new [Jupyter notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+    named "Untitled.ipynb".
+
+<img src="static/jupyter_notebook_blank.png" width="50%">
+
+Enter some basic Python in the **code cell**, for example, `1 + 2`.
+Then, press the **Enter** key *while* holding down the **Control** key
+    (if that does not work, try with the **Shift** key)
+    to **execute** the snippet.
+The result of the calculation, `3` in the example, shows up below the cell.
+
+<img src="static/jupyter_notebook_example.png" width="50%">
+
+After setting up Python,
+    click on the green "Code" button on the top right on this website
+    to download the course materials.
+As a beginner, choosing "Download ZIP" is likely the easiest option.
+Then, unpack the ZIP file into a folder of your choice,
+    ideally somewhere within your personal user folder
+    so that the files show up right away in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
+
+<img src="static/repo_download.png" width="50%">
+
+
+### Alternative Installation (for Instructors)
+
+Python can also be installed in a "pure" way
+    obtained directly from its core development team [here](https://www.python.org/downloads/).
+Then, it comes *without* any third-party packages,
+    which is *not* a problem at all.
+Managing third-party packages can be automated to a large degree,
+    for example, with tools such as [poetry](https://python-poetry.org/docs/).
+
+However, this may be too "advanced" for a beginner
+    as it involves working with a [command-line interface <img height="12" style="display: inline-block" src="static/link/to_wiki.png">](https://en.wikipedia.org/wiki/Command-line_interface) (CLI),
+    also called a **terminal**,
+    which looks like the one below.
+It is used *without* a mouse by typing commands into it.
+The following instructions assume that
+    [git](https://git-scm.com/), [poetry](https://python-poetry.org/docs/),
+    and [pyenv](https://github.com/pyenv/pyenv) are installed.
+
+<img src="static/cli_install.png" width="50%" align="center">
+
+The screeshot above shows how this project can be set up in an alternative way
+    with the [zsh](https://en.wikipedia.org/wiki/Z_shell) CLI.
+
+First, the [git](https://git-scm.com/) tool is used
+    to **clone** the course materials as a **repository**
+    into a new folder called "*intro-to-python*"
+    that lives under a "*repos*" folder.
+
+- `git clone https://github.com/webartifex/intro-to-python.git`
+
+The `cd` command is used to "change directories".
+
+In the screenshot, the [pyenv](https://github.com/pyenv/pyenv) tool is used
+    to set the project's Python version.
+[pyenv](https://github.com/pyenv/pyenv)'s purpose is
+    to manage *many* parallel Python installations on the same computer.
+It is highly recommended for professional users;
+    however, any other way of installing Python works as well.
+
+- `pyenv local ...`
+
+On the contrary, the [poetry](https://python-poetry.org/docs/) tool is used
+    to manage third-party packages within the *same* Python installation
+    and, more importantly, on a per-project basis.
+So, for example,
+whereas "Project A" may depend on [numpy](https://numpy.org/) *v1.19*
+    from June 2020 be installed,
+    "Project B" may use *v1.14* from January 2018 instead
+    (cf., numpy's [release history](https://pypi.org/project/numpy/#history)).
+To achieve this per-project **isolation**,
+[poetry](https://python-poetry.org/docs/) uses so-called **virtual environments**
+    behind the scenes.
+While one could do that manually,
+    for example, by using Python's built-in
+        [venv <img height="12" style="display: inline-block" src="static/link/to_py.png">](https://docs.python.org/3/library/venv.html) module,
+    it is more convenient and reliable to have [poetry](https://python-poetry.org/docs/)
+        automate this.
+The following *one* command not only
+    creates a new virtual environment (manually: `python -m venv venv`)
+    and *activates* it (manually: `source venv/bin/activate`),
+    it also installs the versions of the project's third-party dependencies
+        as specified in the [poetry.lock](poetry.lock) file
+        (manually: `python -m pip install -r requirements.txt`
+         if a [requirements.txt](https://docs.python.org/3/tutorial/venv.html#managing-packages-with-pip)
+         file is used;
+         the `python -m` part is often left out [but should not be](https://snarky.ca/why-you-should-use-python-m-pip/)):
+
+- `poetry install`
+
+[poetry](https://python-poetry.org/docs/) is also used
+    to execute commands in the project's (virtual) environment.
+The command is then prefixed with `poetry run ...`.
+For example, to do the equivalent of clicking "Launch" in the Anaconda Navigator:
+
+- `poetry run jupyter lab`
+
+This opens a new tab in your web browser just as above.
+The command-line interface stays open in the background,
+    like in the screenshot below,
+    and prints log messages as we work in [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/).
+
+<img src="static/cli_jupyter_lab.png" width="50%" align="center">
+
+
+## About the Author
+
+Alexander Hess is a PhD student
+    at the Chair of Logistics Management at [WHU - Otto Beisheim School of Management](https://www.whu.edu)
+    where he conducts research on urban delivery platforms
+    and teaches coding courses based on Python in the BSc and MBA programs.
+Connect him on [LinkedIn](https://www.linkedin.com/in/webartifex).
