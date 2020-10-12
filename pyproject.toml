@@ -19,3 +19,7 @@ jupyterlab = "^2.2.8"
 # Task runners
 nox = "^2020.8.22"
 pre-commit = "^2.7.1"
+
+# Live coding during presentation mode
+jupyter-contrib-nbextensions = "^0.5.1"
+rise = "^5.6.1"
