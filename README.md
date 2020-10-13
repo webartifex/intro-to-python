@@ -23,7 +23,6 @@ Alternatively, the content can be viewed in a web browser
    [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/01_exercises.ipynb)
    |
    [review <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/02_review.ipynb)
-   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/02_review.ipynb)
   )
 - **Part A: Expressing Logic**
   - *Chapter 1*: Elements of a Program
