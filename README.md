@@ -6,26 +6,54 @@ This project is a *thorough* introductory course
 
 ### Table of Contents
 
-The materials are designed to resemble a book.
-They can be viewed in a web browser
+The materials are designed to resemble an *interactive* book.
+It is recommended
+    to follow the [installation instructions](https://github.com/webartifex/intro-to-python#installation) below
+    and work through the content on one's own computer.
+Alternatively, the content can be viewed in a web browser
     either statically (i.e., read-only) on [nbviewer <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/tree/develop/)
     or interactively (i.e., code can be executed) on [Binder <img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab).
-**Video** presentations on the content are available
-    either via the individual links to [YouTube <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com) below
-    or this [playlist <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/playlist?list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f).
 
 - *Chapter 0*: Introduction
   (
    [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/00_content.ipynb)
    [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/00_content.ipynb)
-   [<img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/watch?v=YTU8jaG27Xk&list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f)
    |
-   [review <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/01_review.ipynb)
-   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/01_review.ipynb)
+   [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/01_exercises.ipynb)
+   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/01_exercises.ipynb)
    |
-   [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/02_exercises.ipynb)
-   [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/02_exercises.ipynb)
+   [review <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/02_review.ipynb)
   )
+- **Part A: Expressing Logic**
+  - *Chapter 1*: Elements of a Program
+    (
+     [content 1 <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/00_content.ipynb)
+     [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_01_elements/00_content.ipynb)
+     |
+     [exercises 1 <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/01_exercises.ipynb)
+     [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_01_elements/01_exercises.ipynb)
+     |
+     [content 2 <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/02_content.ipynb)
+     [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_01_elements/02_content.ipynb)
+     |
+     [exercises 2 <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/03_exercises.ipynb)
+     [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_01_elements/03_exercises.ipynb)
+     |
+     [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/04_summary.ipynb)
+     |
+     [review <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/05_review.ipynb)
+     |
+     [resources <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/06_resources.ipynb)
+     [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_01_elements/06_resources.ipynb)
+    )
+
+
+#### Videos
+
+Presentations of the chapters are available on this [YouTube playlist <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/playlist?list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f).
+The recordings are about 25 hours long in total
+    and were made in spring 2020
+    after a corresponding in-class Bachelor course was cancelled due to Corona.
 
 
 ### Objective
