@@ -67,6 +67,7 @@ Alternatively, the content can be viewed in a web browser
       (Standard Library: `math` & `random` Modules;
        Third-party Packages: `numpy` Library;
        Writing one's own Modules)
+    - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_02_functions/03_summary.ipynb)
 
 
 #### Videos
