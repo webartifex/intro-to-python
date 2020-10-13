@@ -39,6 +39,8 @@ Alternatively, the content can be viewed in a web browser
      |
      [exercises 2 <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/03_exercises.ipynb)
      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_01_elements/03_exercises.ipynb)
+     |
+     [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_01_elements/04_summary.ipynb)
     )
 
 
