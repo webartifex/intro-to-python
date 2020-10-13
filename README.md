@@ -13,15 +13,11 @@ It is recommended
 Alternatively, the content can be viewed in a web browser
     either statically (i.e., read-only) on [nbviewer <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/tree/develop/)
     or interactively (i.e., code can be executed) on [Binder <img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab).
-**Video** presentations on the content are available
-    either via the individual links to [YouTube <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com) below
-    or this [playlist <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/playlist?list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f).
 
 - *Chapter 0*: Introduction
   (
    [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/00_content.ipynb)
    [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/00_content.ipynb)
-   [<img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/watch?v=YTU8jaG27Xk&list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f)
    |
    [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/01_exercises.ipynb)
    [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/01_exercises.ipynb)
@@ -29,6 +25,14 @@ Alternatively, the content can be viewed in a web browser
    [review <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/chapter_00_intro/02_review.ipynb)
    [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/chapter_00_intro/02_review.ipynb)
   )
+
+
+#### Videos
+
+Presentations of the chapters are available on this [YouTube playlist <img height="12" style="display: inline-block" src="static/link/to_yt.png">](https://www.youtube.com/playlist?list=PL-2JV1G3J10lQ2xokyQowcRJI5jjNfW7f).
+The recordings are about 25 hours long in total
+    and were made in spring 2020
+    after a corresponding in-class Bachelor course was cancelled due to Corona.
 
 
 ### Objective
