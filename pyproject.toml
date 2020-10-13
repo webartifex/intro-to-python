@@ -14,6 +14,7 @@ license = "MIT"
 python = "^3.8"
 
 jupyterlab = "^2.2.8"
+numpy = "^1.19.2"
 
 [tool.poetry.dev-dependencies]
 # Task runners
