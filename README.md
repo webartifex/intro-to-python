@@ -6,8 +6,11 @@ This project is a *thorough* introductory course
 
 ### Table of Contents
 
-The materials are designed to resemble a book.
-They can be viewed in a web browser
+The materials are designed to resemble an *interactive* book.
+It is recommended
+    to follow the [installation instructions](https://github.com/webartifex/intro-to-python#installation) below
+    and work through the content on one's own computer.
+Alternatively, the content can be viewed in a web browser
     either statically (i.e., read-only) on [nbviewer <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/tree/develop/)
     or interactively (i.e., code can be executed) on [Binder <img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab).
 **Video** presentations on the content are available
