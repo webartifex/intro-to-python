@@ -95,6 +95,9 @@ Alternatively, the content can be viewed in a web browser
        Duck Typing;
        Type Casting & Checking;
        Input Validation)
+    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/04_iteration/01_exercises.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/04_iteration/01_exercises.ipynb)
+      (Towers of Hanoi)
 
 
 #### Videos
