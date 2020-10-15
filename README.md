@@ -112,6 +112,14 @@ Alternatively, the content can be viewed in a web browser
       (Throwing Dice)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/04_iteration/05_summary.ipynb)
     - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/04_iteration/06_review.ipynb)
+- **Part B: Managing Data and Memory**
+  - *Chapter 5*: Numbers & Bits
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/05_numbers/00_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/05_numbers/00_content.ipynb)
+      (`int` Type;
+       Binary & Hexadecimal Representations;
+       Bit Arithmetic;
+       Bitwise Operators)
 
 
 #### Videos
