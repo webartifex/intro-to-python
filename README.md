@@ -86,6 +86,7 @@ Alternatively, the content can be viewed in a web browser
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/03_conditionals/02_exercises.ipynb)
       (Fizz Buzz)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/03_conditionals/03_summary.ipynb)
+    - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/03_conditionals/04_review.ipynb)
 
 
 #### Videos
