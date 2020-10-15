@@ -46,13 +46,13 @@ Alternatively, the content can be viewed in a web browser
        Variables & References;
        Mutability;
        Expressions & Statements)
-    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/03_exercises.ipynb)
-      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/01_elements/03_exercises.ipynb)
+    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/04_exercises.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/01_elements/04_exercises.ipynb)
       (Python as a Calculator)
-    - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/04_summary.ipynb)
-    - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/05_review.ipynb)
-    - [further resources <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/06_resources.ipynb)
-      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/01_elements/06_resources.ipynb)
+    - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/05_summary.ipynb)
+    - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/06_review.ipynb)
+    - [further resources <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/01_elements/07_resources.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/01_elements/07_resources.ipynb)
   - *Chapter 2*: Functions & Modularization
     - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/02_functions/00_content.ipynb)
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/02_functions/00_content.ipynb)
