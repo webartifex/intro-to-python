@@ -71,6 +71,14 @@ Alternatively, the content can be viewed in a web browser
        Writing one's own Modules)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/02_functions/03_summary.ipynb)
     - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/02_functions/04_review.ipynb)
+  - *Chapter 3*: Conditionals & Exceptions
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/03_conditionals/00_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/03_conditionals/00_content.ipynb)
+      (Boolean Expressions;
+       Relational Operators;
+       Logical Operators;
+       `if` statement;
+       Exception Handling)
 
 
 #### Videos
