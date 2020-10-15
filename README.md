@@ -138,6 +138,8 @@ Alternatively, the content can be viewed in a web browser
        `Fraction` Type)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/05_numbers/04_summary.ipynb)
     - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/05_numbers/05_review.ipynb)
+    - [further resources <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/05_numbers/06_resources.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/05_numbers/06_resources.ipynb)
 
 
 #### Videos
