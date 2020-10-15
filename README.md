@@ -204,10 +204,10 @@ The following instructions assume that
 
 <img src="static/cli_install.png" width="50%" align="center">
 
-The screeshot above shows how this project can be set up in an alternative way
+The screenshot above shows how this project can be set up in an alternative way
     with the [zsh](https://en.wikipedia.org/wiki/Z_shell) CLI.
 
-First, the [git](https://git-scm.com/) tool is used
+First, [git](https://git-scm.com/) is used
     to **clone** the course materials as a **repository**
     into a new folder called "*intro-to-python*"
     that lives under a "*repos*" folder.
@@ -216,7 +216,7 @@ First, the [git](https://git-scm.com/) tool is used
 
 The `cd` command is used to "change directories".
 
-In the screenshot, the [pyenv](https://github.com/pyenv/pyenv) tool is used
+In the screenshot, [pyenv](https://github.com/pyenv/pyenv) is used
     to set the project's Python version.
 [pyenv](https://github.com/pyenv/pyenv)'s purpose is
     to manage *many* parallel Python installations on the same computer.
@@ -225,7 +225,7 @@ It is highly recommended for professional users;
 
 - `pyenv local ...`
 
-On the contrary, the [poetry](https://python-poetry.org/docs/) tool is used
+On the contrary, [poetry](https://python-poetry.org/docs/)'s purpose is
     to manage third-party packages within the *same* Python installation
     and, more importantly, on a per-project basis.
 So, for example,
@@ -255,7 +255,7 @@ The following *one* command not only
 
 [poetry](https://python-poetry.org/docs/) is also used
     to execute commands in the project's (virtual) environment.
-The command is then prefixed with `poetry run ...`.
+To do that, the command is prefixed with `poetry run ...`.
 
 The project uses [nox](https://nox.thea.codes/en/stable/)
     to manage various maintenance tasks.
@@ -286,7 +286,8 @@ With that, the instructor can execute code in *presentation* mode during a class
 However, the RISE extension does *not* work in the more recent
     [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) app
     but only in the older [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/) app,
-    which comes with less features and a simpler [GUI](https://en.wikipedia.org/wiki/Graphical_user_interface).
+    which comes with less features
+        and a simpler [GUI <img height="12" style="display: inline-block" src="static/link/to_gh.png">](https://en.wikipedia.org/wiki/Graphical_user_interface).
 The instructor can start the latter with:
 
 - `poetry run jupyter notebook`
@@ -322,4 +323,5 @@ Alexander Hess is a PhD student
     at the Chair of Logistics Management at [WHU - Otto Beisheim School of Management](https://www.whu.edu)
     where he conducts research on urban delivery platforms
     and teaches coding courses based on Python in the BSc and MBA programs.
+
 Connect him on [LinkedIn](https://www.linkedin.com/in/webartifex).
