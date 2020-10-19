@@ -160,6 +160,7 @@ Alternatively, the content can be viewed in a web browser
        `bytes` Type;
        Character Encodings)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/06_text/03_summary.ipynb)
+    - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/06_text/04_review.ipynb)
 
 
 #### Videos
