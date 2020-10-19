@@ -166,3 +166,10 @@ If this is not possible,
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/07_sequences/00_content.ipynb)
       (Collections vs. Sequences;
        ABCs: `Container`, `Iterable`, `Sized`, & `Reversible`)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/07_sequences/01_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/07_sequences/01_content.ipynb)
+      (`list` Type;
+       Indexing & Slicing;
+       Shallow vs. Deep Copies;
+       List Methods & Operations;
+       Unpacking)
