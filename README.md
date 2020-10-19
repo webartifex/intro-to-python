@@ -152,6 +152,13 @@ Alternatively, the content can be viewed in a web browser
     - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/06_text/01_exercises.ipynb)
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/06_text/01_exercises.ipynb)
       (Detecting Palindromes)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/06_text/02_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/06_text/02_content.ipynb)
+      (Special Characters;
+       ASCII & Unicode;
+       Multi-line Strings;
+       `bytes` Type;
+       Character Encodings)
 
 
 #### Videos
