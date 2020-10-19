@@ -171,8 +171,13 @@ If this is not possible,
       (`list` Type;
        Indexing & Slicing;
        Shallow vs. Deep Copies;
-       List Methods & Operations;
-       Unpacking)
+       List Methods & Operations)
     - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/07_sequences/02_exercises.ipynb)
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/07_sequences/02_exercises.ipynb)
       (Working with Lists)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/07_sequences/03_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/07_sequences/03_content.ipynb)
+      (Modifiers vs. Pure Functions;
+       `tuple` Type;
+       Packing & Unpacking;
+       `*args` in Function Definitions)
