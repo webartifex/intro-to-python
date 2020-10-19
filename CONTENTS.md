@@ -187,3 +187,4 @@ If this is not possible,
     - [appendix <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/07_sequences/05_appendix.ipynb)
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/07_sequences/05_appendix.ipynb)
       (`namedtuple` Type)
+    - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/07_sequences/06_summary.ipynb)
