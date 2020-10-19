@@ -149,6 +149,9 @@ Alternatively, the content can be viewed in a web browser
        Indexing & Slicing;
        String Methods & Operations;
        String Interpolation)
+    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/06_text/01_exercises.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/06_text/01_exercises.ipynb)
+      (Detecting Palindromes)
 
 
 #### Videos
