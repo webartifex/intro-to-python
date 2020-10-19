@@ -19,6 +19,7 @@ For a more *detailed version* with **clickable links**
 - **Part B: Managing Data and Memory**
   - *Chapter 5*: Numbers & Bits
   - *Chapter 6*: Text & Bytes
+  - *Chapter 7*: Sequential Data
 
 
 #### Videos
