@@ -140,6 +140,15 @@ Alternatively, the content can be viewed in a web browser
     - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/05_numbers/05_review.ipynb)
     - [further resources <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/05_numbers/06_resources.ipynb)
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/05_numbers/06_resources.ipynb)
+  - *Chapter 6*: Text & Bytes
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/06_numbers/00_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/06_text/00_content.ipynb)
+      (`str` Type;
+       Reading Files;
+       Sequences;
+       Indexing & Slicing;
+       String Methods & Operations;
+       String Interpolation)
 
 
 #### Videos
