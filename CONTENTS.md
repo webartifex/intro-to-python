@@ -223,3 +223,7 @@ If this is not possible,
     - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/03_exercises.ipynb)
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/03_exercises.ipynb)
       (Packing & Unpacking with Functions, continued)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/04_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/04_content.ipynb)
+      (Iterators vs. Iterables;
+       Example: `sorted()` vs. `reversed()`)
