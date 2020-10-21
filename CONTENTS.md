@@ -2,6 +2,21 @@
 
 The materials are designed to resemble an *interactive* book.
 
+The files come
+    primarily in the [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+        format (i.e., \*.ipynb)
+    but also as [modules and packages <img height="12" style="display: inline-block" src="static/link/to_py.png">](https://docs.python.org/3/tutorial/modules.html)
+        (i.e., \*.py).
+Together with some other static files (e.g., images),
+    they are stored in one folder per chapter in this repository.
+They are to be opened
+    from within the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) application,
+    even though other ways are certainly possible as well.
+Both the files and the folders
+    are appropriately named with prefixes
+    indicating the order in which they should be read
+        and starting with "00_".
+
 It is recommended
     to follow the [installation instructions](https://github.com/webartifex/intro-to-python#installation)
         in the [README.md](README.md) file
@@ -189,3 +204,28 @@ If this is not possible,
       (`namedtuple` Type)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/07_sequences/06_summary.ipynb)
     - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/07_sequences/07_review.ipynb)
+  - *Chapter 8*: Map, Filter, & Reduce
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/00_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/00_content.ipynb)
+      (Mapping;
+       Filtering;
+       Reducing;
+       `lambda` Expression)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/01_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/01_content.ipynb)
+      (`list` Comprehension;
+       `generator` Expression;
+       Streams of Data;
+       Boolean Reducers)
+    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/02_exercises.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/02_exercises.ipynb)
+      (Removing Outliers in Streaming Data)
+    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/03_exercises.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/03_exercises.ipynb)
+      (Packing & Unpacking with Functions, continued)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/04_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/04_content.ipynb)
+      (Iterators vs. Iterables;
+       Example: `sorted()` vs. `reversed()`)
+    - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/05_summary.ipynb)
+    - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/06_review.ipynb)
