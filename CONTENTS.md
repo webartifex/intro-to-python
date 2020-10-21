@@ -2,6 +2,21 @@
 
 The materials are designed to resemble an *interactive* book.
 
+The files come
+    primarily in the [Jupyter Notebook](https://jupyter-notebook.readthedocs.io/en/stable/)
+        format (i.e., \*.ipynb)
+    but also as [modules and packages <img height="12" style="display: inline-block" src="static/link/to_py.png">](https://docs.python.org/3/tutorial/modules.html)
+        (i.e., \*.py).
+Together with some other static files (e.g., images),
+    they are stored in one folder per chapter in this repository.
+They are to be opened
+    from within the [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) application,
+    even though other ways are certainly possible as well.
+Both the files and the folders
+    are appropriately named with prefixes
+    indicating the order in which they should be read
+        and starting with "00_".
+
 It is recommended
     to follow the [installation instructions](https://github.com/webartifex/intro-to-python#installation)
         in the [README.md](README.md) file
