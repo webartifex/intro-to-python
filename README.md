@@ -20,6 +20,7 @@ For a more *detailed version* with **clickable links**
   - *Chapter 5*: Numbers & Bits
   - *Chapter 6*: Text & Bytes
   - *Chapter 7*: Sequential Data
+  - *Chapter 8*: Map, Filter, & Reduce
 
 
 #### Videos
