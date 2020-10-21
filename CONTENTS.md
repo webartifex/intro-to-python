@@ -217,3 +217,6 @@ If this is not possible,
        `generator` Expression;
        Streams of Data;
        Boolean Reducers)
+    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/02_exercises.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/08_mfr/02_exercises.ipynb)
+      (Removing Outliers in Streaming Data)
