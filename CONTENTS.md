@@ -228,3 +228,4 @@ If this is not possible,
       (Iterators vs. Iterables;
        Example: `sorted()` vs. `reversed()`)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/05_summary.ipynb)
+    - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/06_review.ipynb)
