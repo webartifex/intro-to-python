@@ -229,3 +229,11 @@ If this is not possible,
        Example: `sorted()` vs. `reversed()`)
     - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/05_summary.ipynb)
     - [review questions <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/08_mfr/06_review.ipynb)
+  - *Chapter 9*: Mappings & Sets
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/09_mappings/00_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/09_mappings/00_content.ipynb)
+      (`dict` Type;
+       Nested Data;
+       Hash Tables;
+       `dict` Methods & Behavior;
+       `dict` Comprehension)

@@ -21,6 +21,7 @@ For a more *detailed version* with **clickable links**
   - *Chapter 6*: Text & Bytes
   - *Chapter 7*: Sequential Data
   - *Chapter 8*: Map, Filter, & Reduce
+  - *Chapter 9*: Mappings & Sets
 
 
 #### Videos
