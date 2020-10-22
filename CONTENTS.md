@@ -258,3 +258,4 @@ If this is not possible,
       (`defaultdict` Type;
        `Counter` Type;
        `ChainMap` Type)
+    - [summary <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/09_mappings/06_summary.ipynb)
