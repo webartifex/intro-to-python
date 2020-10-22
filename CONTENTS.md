@@ -253,3 +253,8 @@ If this is not possible,
        `set` Methods & Operations;
        `set` Comprehension;
        `frozenset` Type)
+    - [appendix <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/09_mappings/05_appendix.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/09_mappings/05_appendix.ipynb)
+      (`defaultdict` Type;
+       `Counter` Type;
+       `ChainMap` Type)
