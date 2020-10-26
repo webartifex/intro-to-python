@@ -270,3 +270,6 @@ If this is not possible,
        Text Representations;
        Instance Methods vs. Class Methods;
        Computed Properties)
+    - [exercises <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/11_classes/01_exercises.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/11_classes/01_exercises.ipynb)
+      (A Traveling Salesman Problem)
