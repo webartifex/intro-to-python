@@ -21,6 +21,9 @@ numpy = "^1.19.2"
 nox = "^2020.8.22"
 pre-commit = "^2.7.1"
 
+# Testing
+xdoctest = "^0.15.0"
+
 # Live coding during presentation mode
 jupyter-contrib-nbextensions = "^0.5.1"
 rise = "^5.6.1"
