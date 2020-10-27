@@ -38,6 +38,10 @@ class Matrix:
             ValueError:
                 - if no entries are provided
                 - if the number of columns is inconsistent across the rows
+
+        Example Usage:
+            >>> Matrix([(1, 2), (3, 4)])
+            Matrix(((1.000, 2.000,), (3.000, 4.000,)))
         """
         self._entries = self.storage(
             self.storage(self.typing(x) for x in r) for r in data
@@ -64,6 +68,10 @@ class Matrix:
             ValueError:
                 - if no entries are provided
                 - if the number of rows is inconsistent across the columns
+
+        Example Usage:
+            >>> Matrix.from_columns([(1, 2), (3, 4)])
+            Matrix(((1.000, 3.000,), (2.000, 4.000,)))
         """
         return cls(data).transpose()
 
@@ -122,7 +130,7 @@ class Matrix:
             >>> m[-1]
             4.0
             >>> m[0, 1]
-            3.0
+            2.0
         """
         # Sequence-like indexing (one-dimensional)
         if isinstance(index, int):
@@ -201,13 +209,13 @@ class Matrix:
 
         Example Usage:
             >>> Matrix([(1, 2), (3, 4)]) + Matrix([(2, 3), (4, 5)])
-            Matrix(((3.0, 5.0), (7.0, 9.0)))
+            Matrix(((3.000, 5.000,), (7.000, 9.000,)))
 
             >>> Matrix([(1, 2), (3, 4)]) + 5
-            Matrix(((6.0, 7.0), (8.0, 9.0)))
+            Matrix(((6.000, 7.000,), (8.000, 9.000,)))
 
             >>> 10 + Matrix([(1, 2), (3, 4)])
-            Matrix(((11.0, 12.0), (13.0, 14.0)))
+            Matrix(((11.000, 12.000,), (13.000, 14.000,)))
         """
         # Matrix addition
         if isinstance(other, self.__class__):
@@ -237,13 +245,13 @@ class Matrix:
 
         Example Usage:
             >>> Matrix([(2, 3), (4, 5)]) - Matrix([(1, 2), (3, 4)])
-            Matrix(((1.0, 1.0), (1.0, 1.0)))
+            Matrix(((1.000, 1.000,), (1.000, 1.000,)))
 
             >>> Matrix([(1, 2), (3, 4)]) - 1
-            Matrix(((0.0, 1.0), (2.0, 3.0)))
+            Matrix(((0.000, 1.000,), (2.000, 3.000,)))
 
             >>> 10 - Matrix([(1, 2), (3, 4)])
-            Matrix(((9.0, 8.0), (7.0, 6.0)))
+            Matrix(((9.000, 8.000,), (7.000, 6.000,)))
         """
         # As subtraction is the inverse of addition,
         # we first dispatch to .__neg__() to invert the signs of
@@ -276,21 +284,21 @@ class Matrix:
 
         Example Usage:
             >>> Matrix([(1, 2), (3, 4)]) * Matrix([(1, 2), (3, 4)])
-            Matrix(((7.0, 10.0), (15.0, 22.0)))
+            Matrix(((7.000, 10.000,), (15.000, 22.000,)))
 
             >>> 2 * Matrix([(1, 2), (3, 4)])
-            Matrix(((2.0, 4.0), (6.0, 8.0)))
+            Matrix(((2.000, 4.000,), (6.000, 8.000,)))
 
             >>> Matrix([(1, 2), (3, 4)]) * 3
-            Matrix(((3.0, 6.0), (9.0, 12.0)))
+            Matrix(((3.000, 6.000,), (9.000, 12.000,)))
 
             Matrix-vector and vector-matrix multiplication are not commutative.
 
             >>> Matrix([(1, 2), (3, 4)]) * Vector([5, 6])
-            Vector((17.0, 39.0))
+            Vector((17.000, 39.000))
 
             >>> Vector([5, 6]) * Matrix([(1, 2), (3, 4)])
-            Vector((23.0, 34.0))
+            Vector((23.000, 34.000))
         """
         # Scalar multiplication
         if isinstance(other, numbers.Number):
@@ -322,7 +330,7 @@ class Matrix:
 
         Example Usage:
             >>> Matrix([(1, 2), (3, 4)]) / 4
-            Matrix([(0.25, 0.5), (0.75, 1.0)])
+            Matrix(((0.250, 0.500,), (0.750, 1.000,)))
         """
         # As scalar division division is the same as multiplication
         # with the inverse, we dispatch to .__mul__().
@@ -394,6 +402,10 @@ class Matrix:
 
         Raises:
             RuntimeError: if one of the two dimensions, .n_rows or .n_cols, is not 1
+
+        Example Usage:
+            >>> Matrix([(1, 2, 3)]).as_vector()
+            Vector((1.000, 2.000, 3.000))
         """
         if not (self.n_rows == 1 or self.n_cols == 1):
             raise RuntimeError("one dimension (m or n) must be 1")
@@ -404,6 +416,13 @@ class Matrix:
 
         Returns:
             matrix (Matrix)
+
+        Example Usage:
+            >>> m = Matrix([(1, 2), (3, 4)])
+            >>> m
+            Matrix(((1.000, 2.000,), (3.000, 4.000,)))
+            >>> m.transpose()
+            Matrix(((1.000, 3.000,), (2.000, 4.000,)))
         """
         return self.__class__(zip(*self._entries))
 

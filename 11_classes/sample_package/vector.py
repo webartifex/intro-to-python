@@ -40,10 +40,10 @@ class Vector:
 
         Example Usage:
             >>> Vector([1, 2, 3])
-            Vector((1.0, 2.0, 3.0))
+            Vector((1.000, 2.000, 3.000))
 
             >>> Vector(range(3))
-            Vector((0.0, 1.0, 2.0))
+            Vector((0.000, 1.000, 2.000))
         """
         self._entries = self.storage(self.typing(x) for x in data)
         if len(self) == 0:
@@ -86,13 +86,13 @@ class Vector:
 
         Example Usage:
             >>> Vector([1, 2, 3]) + Vector([2, 3, 4])
-            Vector((3, 5, 7))
+            Vector((3.000, 5.000, 7.000))
 
             >>> Vector([1, 2, 3]) + 4
-            Vector((5, 6, 7))
+            Vector((5.000, 6.000, 7.000))
 
             >>> 10 + Vector([1, 2, 3])
-            Vector((11, 12, 13))
+            Vector((11.000, 12.000, 13.000))
         """
         # Vector addition
         if isinstance(other, self.__class__):
@@ -117,13 +117,13 @@ class Vector:
 
         Example Usage:
             >>> Vector([7, 8, 9]) - Vector([1, 2, 3])
-            Vector((6, 6, 6))
+            Vector((6.000, 6.000, 6.000))
 
             >>> Vector([1, 2, 3]) - 1
-            Vector((0, 1, 2))
+            Vector((0.000, 1.000, 2.000))
 
             >>> 10 - Vector([1, 2, 3])
-            Vector((9, 8, 7))
+            Vector((9.000, 8.000, 7.000))
         """
         # As subtraction is the inverse of addition,
         # we first dispatch to .__neg__() to invert the signs of
@@ -143,13 +143,13 @@ class Vector:
 
         Example Usage:
             >>> Vector([1, 2, 3]) * Vector([2, 3, 4])
-            14
+            20.0
 
             >>> 2 * Vector([1, 2, 3])
-            Vector((2.0, 4.0, 6.0))
+            Vector((2.000, 4.000, 6.000))
 
             >>> Vector([1, 2, 3]) * 3
-            Vector((3.0, 6.0, 9.0))
+            Vector((3.000, 6.000, 9.000))
         """
         # Dot product
         if isinstance(other, self.__class__):
@@ -174,7 +174,7 @@ class Vector:
 
         Example Usage:
             >>> Vector([9, 6, 12]) / 3
-            Vector((3.0, 2.0, 4.0))
+            Vector((3.000, 2.000, 4.000))
         """
         # As scalar division division is the same as multiplication
         # with the inverse, we dispatch to .__mul__().
@@ -247,6 +247,13 @@ class Vector:
 
         Returns:
             matrix (Matrix)
+
+        Example Usage:
+            >>> v = Vector([1, 2, 3])
+            >>> v.as_matrix()
+            Matrix(((1.000,), (2.000,), (3.000,)))
+            >>> v.as_matrix(column=False)
+            Matrix(((1.000, 2.000, 3.000,)))
         """
         if column:
             return Matrix([x] for x in self)
