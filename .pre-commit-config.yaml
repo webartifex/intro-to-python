@@ -3,6 +3,12 @@ fail_fast: true
 repos:
 - repo: local
   hooks:
+  - id: doctests
+    name: Run the xdoctests in the source files
+    entry: poetry run nox -s doctests --
+    language: system
+    stages: [commit, merge-commit]
+    types: [python]
   - id: fix-branch-references
     name: Check for wrong branch references
     entry: poetry run nox -s fix-branch-references --
