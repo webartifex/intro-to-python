@@ -280,3 +280,7 @@ If this is not possible,
        (Im)mutable Data Types;
        Method Chaining;
        Polymorphism)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/11_classes/03_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/11_classes/03_content.ipynb)
+      (Operator Overloading: Arithmetic & Relational Operators;
+       Number Emulation)
