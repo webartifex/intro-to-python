@@ -7,8 +7,8 @@ import numbers
 # If third-party libraries are needed, they are
 # put into a group on their own in between.
 # Within a group, imports are sorted lexicographically.
+from sample_package import matrix
 from sample_package import utils
-from sample_package.matrix import Matrix
 
 
 class Vector:
@@ -17,6 +17,7 @@ class Vector:
     All entries are converted to floats, or whatever is set in the typing attribute.
 
     Attributes:
+        matrix_cls (matrix.Matrix): a reference to the Matrix class to work with
         storage (callable): data type used to store the entries internally;
             defaults to tuple
         typing (callable): type casting applied to all entries upon creation;
@@ -25,6 +26,7 @@ class Vector:
             defaults to 1e-12
     """
 
+    matrix_cls = matrix.Matrix
     storage = utils.DEFAULT_ENTRIES_STORAGE
     typing = utils.DEFAULT_ENTRY_TYPE
     zero_threshold = utils.ZERO_THRESHOLD
@@ -219,7 +221,7 @@ class Vector:
 
     def __abs__(self):
         """The Euclidean norm of a vector."""
-        return utils.norm(self)  # use the norm() function shared with the Matrix class
+        return utils.norm(self)  # uses the norm() function shared matrix.Matrix
 
     def __bool__(self):
         """A Vector is truthy if its Euclidean norm is strictly positive."""
@@ -246,7 +248,7 @@ class Vector:
                 column vector or a row vector; defaults to True
 
         Returns:
-            matrix (Matrix)
+            matrix (matrix.Matrix)
 
         Example Usage:
             >>> v = Vector([1, 2, 3])
@@ -256,5 +258,5 @@ class Vector:
             Matrix(((1.000, 2.000, 3.000,)))
         """
         if column:
-            return Matrix([x] for x in self)
-        return Matrix([(x for x in self)])
+            return self.matrix_cls([x] for x in self)
+        return self.matrix_cls([(x for x in self)])

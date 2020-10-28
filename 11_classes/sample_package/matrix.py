@@ -17,12 +17,14 @@ class Matrix:
             defaults to tuple
         typing (callable): type casting applied to all entries upon creation;
             defaults to float
+        vector_cls (vector.Vector): a reference to the Vector class to work with
         zero_threshold (float): max. tolerance when comparing an entry to zero;
             defaults to 1e-12
     """
 
     storage = utils.DEFAULT_ENTRIES_STORAGE
     typing = utils.DEFAULT_ENTRY_TYPE
+    # the `vector_cls` attribute is set at the bottom of this file
     zero_threshold = utils.ZERO_THRESHOLD
 
     def __init__(self, data):
@@ -156,7 +158,7 @@ class Matrix:
         Returns:
             rows (generator): produces a Matrix's rows as Vectors
         """
-        return (Vector(r) for r in self._entries)
+        return (self.vector_cls(r) for r in self._entries)
 
     def cols(self):
         """Loop over a Matrix's columns.
@@ -165,7 +167,7 @@ class Matrix:
             columns (generator): produces a Matrix's columns as Vectors
         """
         return (
-            Vector(self._entries[r][c] for r in range(self.n_rows))
+            self.vector_cls(self._entries[r][c] for r in range(self.n_rows))
             for c in range(self.n_cols)
         )
 
@@ -232,7 +234,7 @@ class Matrix:
 
     def __radd__(self, other):
         """See docstring for .__add__()."""
-        if isinstance(other, Vector):
+        if isinstance(other, self.vector_cls):
             raise TypeError("vectors and matrices cannot be added")
         # As both matrix and broadcasting addition are commutative,
         # we dispatch to .__add__().
@@ -260,7 +262,7 @@ class Matrix:
 
     def __rsub__(self, other):
         """See docstring for .__sub__()."""
-        if isinstance(other, Vector):
+        if isinstance(other, self.vector_cls):
             raise TypeError("vectors and matrices cannot be subtracted")
         # Same comments as in .__sub__() apply
         # with the roles of self and other swapped.
@@ -294,6 +296,8 @@ class Matrix:
 
             Matrix-vector and vector-matrix multiplication are not commutative.
 
+            >>> from sample_package import Vector
+
             >>> Matrix([(1, 2), (3, 4)]) * Vector([5, 6])
             Vector((17.000, 39.000))
 
@@ -304,7 +308,7 @@ class Matrix:
         if isinstance(other, numbers.Number):
             return self.__class__((x * other for x in r) for r in self._entries)
         # Matrix-vector multiplication: Vector is a column Vector
-        elif isinstance(other, Vector):
+        elif isinstance(other, self.vector_cls):
             # First, cast the other Vector as a Matrix, then do matrix-matrix
             # multiplication, and lastly return the result as a Vector again.
             return self._matrix_multiply(other.as_matrix()).as_vector()
@@ -319,7 +323,7 @@ class Matrix:
         if isinstance(other, numbers.Number):
             return self * other
         # Vector-matrix multiplication: Vector is a row Vector
-        elif isinstance(other, Vector):
+        elif isinstance(other, self.vector_cls):
             return other.as_matrix(column=False)._matrix_multiply(self).as_vector()
         return NotImplemented
 
@@ -375,7 +379,7 @@ class Matrix:
 
     def __abs__(self):
         """The Frobenius norm of a Matrix."""
-        return utils.norm(self)  # use the norm() function shared with the Vector class
+        return utils.norm(self)  # uses the norm() function shared vector.Vector
 
     def __bool__(self):
         """A Matrix is truthy if its Frobenius norm is strictly positive."""
@@ -398,7 +402,7 @@ class Matrix:
         """Get a Vector representation of a Matrix.
 
         Returns:
-            vector (Vector)
+            vector (vector.Vector)
 
         Raises:
             RuntimeError: if one of the two dimensions, .n_rows or .n_cols, is not 1
@@ -409,7 +413,7 @@ class Matrix:
         """
         if not (self.n_rows == 1 or self.n_cols == 1):
             raise RuntimeError("one dimension (m or n) must be 1")
-        return Vector(x for x in self)
+        return self.vector_cls(x for x in self)
 
     def transpose(self):
         """Switch the rows and columns of a Matrix.
@@ -432,4 +436,8 @@ class Matrix:
 # We call that a circular import. Whereas Python handles "circular" references
 # (e.g., both the Matrix and Vector classes have methods that reference the
 # respective other class), that is forbidden for imports.
-from sample_package.vector import Vector
+from sample_package import vector
+
+# This attribute cannot be set in the class definition
+# as the vector module is only imported down here.
+Matrix.vector_cls = vector.Vector

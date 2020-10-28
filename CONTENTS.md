@@ -284,3 +284,8 @@ If this is not possible,
       [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/11_classes/03_content.ipynb)
       (Operator Overloading: Arithmetic & Relational Operators;
        Number Emulation)
+    - [content <img height="12" style="display: inline-block" src="static/link/to_nb.png">](https://nbviewer.jupyter.org/github/webartifex/intro-to-python/blob/develop/11_classes/04_content.ipynb)
+      [<img height="12" style="display: inline-block" src="static/link/to_mb.png">](https://mybinder.org/v2/gh/webartifex/intro-to-python/develop?urlpath=lab/tree/11_classes/04_content.ipynb)
+      (Writing one's own Packages;
+       The final `Vector` & `Matrix` Classes;
+       Comparison with `numpy`)

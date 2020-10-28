@@ -28,3 +28,7 @@ from sample_package.vector import Vector
 __name__ = "linear_algebra_tools"
 __version__ = "0.1.0"  # see https://semver.org/ for how the format works
 __author__ = "Alexander Hess"
+
+# Define what is imported with the "star import"
+# (i.e., with `from sample_package import *`).
+__all__ = ["Matrix", "Vector"]
