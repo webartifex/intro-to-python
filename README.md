@@ -22,6 +22,7 @@ For a more *detailed version* with **clickable links**
   - *Chapter 7*: Sequential Data
   - *Chapter 8*: Map, Filter, & Reduce
   - *Chapter 9*: Mappings & Sets
+  - *Chapter 11*: Classes & Instances
 
 
 #### Videos

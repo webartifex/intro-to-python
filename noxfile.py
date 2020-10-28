@@ -4,6 +4,8 @@ Nox provides the following tasks:
 
 - "init-project": install the pre-commit hooks
 
+- "doctests": run the xdoctests in the source files
+
 - "fix-branch-references": adjusts links with git branch references in
   various files (e.g., Mardown or notebooks)
 
@@ -21,6 +23,11 @@ import nox
 
 
 REPOSITORY = "webartifex/intro-to-python"
+
+SRC_LOCATIONS = (
+    "02_functions/sample_module.py",
+    "11_classes/sample_package",
+)
 
 # Use a unified .cache/ folder for all develop tools.
 nox.options.envdir = ".cache/nox"
@@ -43,6 +50,13 @@ def init_project(session):
     session.run(
         "poetry", "run", "jupyter", "contrib", "nbextension", "install", "--user"
     )
+
+
+@nox.session(venv_backend="none")
+def doctests(session):
+    """Run the xdoctests in the source files."""
+    for location in SRC_LOCATIONS:
+        session.run("poetry", "run", "xdoctest", "--silent", location)
 
 
 @nox.session(name="fix-branch-references", venv_backend="none")
